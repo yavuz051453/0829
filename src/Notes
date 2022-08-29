@@ -1,0 +1,46 @@
+What is git?
+it is a version control tool
+
+What is a local repository
+a storage that is on our computer
+
+What is a remote repository
+github
+
+Architecture of git?
+it is 3 stage architecture
+a) working
+b)staging area
+c)repo (local)
+
+What are those
+a?  folder that all project files are located (pom, src, target, .idea, )
+my directory is (e.g., gitproject01)
+Where should u create your git repository?
+ideally, you should create your repo inside your working directory in this case of gitproject01
+***no sub repository should be created***
+One repo for one single repo and no sub repo is adviced
+
+
+--------Tracking your first project using git----------------
+
+
+a)  First open gitBash and cd to location by Desktop\....GitTesting
+b)initialize an empty repository (git init)>>>it will create .git file that not visible
+//to delete a repo, simply delete the .git folder
+c) as soons as I run git status, it will check staging area and local repo
+which also shows untracked files in red color
+also the tracked files in green
+
+d) git add .
+
+
+
+
+
+
+
+
+
+
+
