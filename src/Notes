@@ -32,9 +32,17 @@ c) as soons as I run git status, it will check staging area and local repo
 which also shows untracked files in red color
 also the tracked files in green
 
-d) git add .
+d) git add . will copy things from staging area to local repo
+git log will show author date code
 
+-------------------Some Advance git commands----------------------------
 
+1) to view the files in your staging area   >>> git ls -files
+   will show me what files are in staging area
+2) to remove any files from the staging area only    >>>> git rm --cached src -r
+3) to restore files from staging area to your working directory   use  -->>>> git restore .
+4) to see the difference between the local repo and working directory >>>>  git diff
+5) to see the diff between the staged previous and    >>>  git diff --staged
 
 
 
